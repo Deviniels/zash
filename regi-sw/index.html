@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Zashquar | Sadako White Payment</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/images/zqr.ico" type="x-icon">
+    </head>
+    <body>
+    <form action="connect.php" method="post"></form>
+      <div class="wrapper">
+        <div class="title">До сплати 450 грн (WHITE)
+        </div>
+        <div class="form">
+            <div class="input_field">
+                <label>Ім'я</label>
+                <input type="text" class="input" name="firstName" placeholder="Тарас">
+            </div>
+            <div class="input_field">
+                <label>Прізвище</label>
+                <input type="text" class="input" name="lastName" placeholder="Шевченко">
+            </div>
+            <div class="input_field">
+                <label>Стать</label>
+                <div class="custom_select">
+                    <select>
+                        <option value="select">Виберіть</option>
+                        <option value="male" name="man">Чоловіча</option>
+                        <option value="female" name="woman">Жіноча</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input_field">
+                <label>Розмір</label>
+                <div class="custom_select">
+                    <select>
+                        <option value="select">Виберіть</option>
+                        <option value="male" name="man">XS</option>
+                        <option value="male" name="man">S</option>
+                        <option value="female" name="woman">M</option>
+                        <option value="female" name="woman">L</option>
+                        <option value="female" name="woman">XL</option>
+                        <option value="male" name="man">XXL</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input_field">
+                <label>Ел.пошта</label>
+                <input type="text" class="input" name="email" placeholder="taras_shevchenko@zrazok.com">
+            </div>
+            <div class="input_field">
+                <label>Номер телефону</label>
+                <input type="text" class="input" name="phoneNumber">
+            </div>
+            <div class="input_field">
+                <label>Адреса</label>
+                <textarea class="textarea" name="Address" placeholder="(місто, район, область, країна)"></textarea>
+            </div>
+            <div class="input_field">
+                <label>Індекс</label>
+                <input type="text" class="input" name="indexate">
+            </div>
+            <div class="input_field terms">
+               <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+               </label>
+               <a href="/tos/">Згоден/згодна з умовами користування</a>
+            </div>
+            <div class="inputfield">
+                <input type="submit" value="Готово" class="btn">
+            </div>
+        </div>
+      </div>
+    </body>
+</html>

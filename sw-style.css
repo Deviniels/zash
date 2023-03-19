@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;;
+
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center;
+    background: url("/images/waves2.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.img{
+    margin: auto;
+    position: relative;
+    top: auto;
+    left: 0%;
+    right: auto;
+    bottom: 60px;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+.main{
+    margin: 0;
+    position: fixed;
+    top: 0%;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: 85px;
+    background-color: black;
+    z-index: -2;
+}
+
+.holder-blue{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    background: rgb(43, 42, 42);
+    width: 600px;
+    height: 400px;
+    left: 25%;
+    bottom: 50px;
+    border-radius: 6px;
+    z-index: 0;
+}
+
+.sdk{
+    position: relative;
+    width: 40%;
+    height: 60%;
+    top: 80px;
+    left: 10%;
+    border-radius: 6px;
+}
+
+.sdb{
+    position: relative;
+    top: auto;
+    left: 25%;
+    right: auto;
+    bottom: 8%;
+    font-size: 30px;
+    width: 5%;
+    height: 5%;
+    letter-spacing: 0.1rem;
+}
+
+.description{
+    position: relative;
+    margin: auto;
+    top: -5%;
+    opacity: 0.5;
+    left: 10%;
+}
+
+/* CSS */
+.button-56 {
+    align-items: center;
+    background-color: rgb(184, 184, 184);
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    top: 70%;
+    right: 50%;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ 
+    
+    
+}
+  
+.button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+    
+}
+  
+.button-56:hover:after {
+    transform: translate(0, 0);
+    
+}
+  
+.button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+    
+}
+  
+  .button-56:hover {
+    outline: 0;
+    
+}
+  
+  @media (min-width: 768px) {
+    .button-56 {
+      padding: 0 40px;
+      
+    }
+}
+@media (max-width: 767px){
+    body{
+        width: 720px;
+        height: 1080px;
+    }
+    .holder-blue{
+        left: 10%;
+    }
+}
+
+.holder{
+    width: 100%;
+    border: 4mm ridge white;
+    background-color: rgba(148, 148, 148, 0.925);
+}
+
+*{
+    text-decoration: none;
+}
